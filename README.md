@@ -22,12 +22,12 @@ Built a **distributed backtesting engine** that processes **12,300 backtests** a
 ## 📈 Visualizations
 
 ### Complete Analysis Dashboard
-![Dashboard](Production%20Monitoring%20dashboard.png)
+![Dashboard](Top%2015%20trading%20strategies.png)
 
 *Comprehensive 9-panel dashboard showing strategy performance, distributions, and risk-return profiles*
 
 ### Production Monitoring Dashboard
-![Monitoring](monitoring_dashboard.png)
+![Monitoring](Production%20Monitoring%20Dashboard.png)
 
 *Real-time monitoring showing data quality score (100%), throughput (240 tests/sec), and automated validation checks*
 
