@@ -25,7 +25,7 @@ Built a distributed backtesting engine that processes **12,300 backtests** acros
 *9-panel interactive dashboard showing comprehensive strategy performance*
 
 ### Strategy Type Comparison
-![Strategy Types](Strategy%20Type%20Performance%20Comparison.png)
+![Strategy Types](Strategy%20Type%20Performance%20Comparision.png)
 
 ### Top Strategies
 ![Top 15](Top%2015%20trading%20strategies.png)
