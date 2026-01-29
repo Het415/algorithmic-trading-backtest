@@ -20,7 +20,7 @@ Built a distributed backtesting engine that processes **12,300 backtests** acros
 ## 📈 Visualizations
 
 ### Complete Analysis Dashboard
-![Dashboard](Complete%20Trading%20Backtesting%20analysis%20dash....png)
+![Dashboard](Complete%20Trading%20Backtesting%20analysis%20dashboard.png)
 
 *9-panel interactive dashboard showing comprehensive strategy performance*
 
