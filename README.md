@@ -1,6 +1,6 @@
 # 📊 Distributed Algorithmic Trading Backtesting Engine
 
-![Results](3D%20visualization.png)
+![Results](3D%20visualisation.png)
 
 ## 🎯 Results
 - **12,300** backtests on **100 stocks**
