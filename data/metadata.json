@@ -1,0 +1,29 @@
+{
+  "run_timestamp": "2025-05-04T09:30:00",
+  "quality_score": 100.0,
+  "throughput_per_sec": 240,
+  "total_backtests": 12300,
+  "stocks_tested": 100,
+  "validation_checks": [
+    {
+      "name": "Completeness",
+      "status": "PASS"
+    },
+    {
+      "name": "Price Validity",
+      "status": "PASS"
+    },
+    {
+      "name": "Data Freshness",
+      "status": "PASS"
+    },
+    {
+      "name": "Coverage",
+      "status": "PASS"
+    },
+    {
+      "name": "OHLC Logic",
+      "status": "PASS"
+    }
+  ]
+}

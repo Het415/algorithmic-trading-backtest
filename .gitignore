@@ -1,6 +1,3 @@
-# Generated backtest output — run the notebook to produce these
-data/results.csv
-data/metadata.json
 
 # Python
 __pycache__/
