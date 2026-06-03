@@ -100,7 +100,8 @@ def build_3d_scatter(df: pd.DataFrame) -> go.Figure:
 
 def build_top_table(df: pd.DataFrame, n: int = 15) -> go.Figure:
     top = df.nlargest(n, "avg_sharpe").reset_index(drop=True)
-    row_colors = [["#FFFFFF", "#F0F4FA"] * (n // 2 + 1)][:n]
+    row_colors = ["#FFFFFF" if i % 2 == 0 else "#F0F4FA" for i in range(len(top))]
+    NUM_COLS = 8
 
     fig = go.Figure(
         go.Table(
@@ -131,9 +132,9 @@ def build_top_table(df: pd.DataFrame, n: int = 15) -> go.Figure:
                     top["avg_calmar"].round(3),
                     top["num_stocks"],
                 ],
-                fill_color=[["#FFFFFF", "#F0F4FA"] * n],
+                fill_color=[row_colors] * NUM_COLS,
                 align="center",
-                font=dict(size=12, family="Arial"),
+                font=dict(size=12, family="Arial", color="#1A202C"),
                 height=30,
             ),
         )
